@@ -1,0 +1,6 @@
+Para estudar
+	Atribuição por desetruturação
+	While
+	DOM
+Callbacks, promise, async wait  event loop:
+	https://imasters.com.br/desenvolvimento/gerenciando-o-fluxo-assincrono-de-operacoes-em-nodejs

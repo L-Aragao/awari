@@ -1,0 +1,14 @@
+exports.paginaInicial = (req, res) => {
+  res.send(`
+  <form action="/" method="POST">
+  Nome do cliente: <input type="text" name="nome"><br>
+  Idade: <input type="text" name="plus">
+  <button>Inserir</button>
+  </form>
+  `);
+};
+
+exports.trataPost = (req, res) => {
+  const corpo = req.body
+  res.send(`A requesicao foi feita pelo ${corpo.nome}`);
+};
