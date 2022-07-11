@@ -7,7 +7,7 @@ class FoodService {
   
   addToStore() {
     if (!FoodExpiry.isExpired(this.date)) {
-      // Add to store
+      // Code to Add item to store
     }
   }
 }

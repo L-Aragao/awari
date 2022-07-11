@@ -31,9 +31,11 @@ const mutationResolver = new graphql.GraphQLObjectType({
   fields: () => ({
     trocanome: {
       type: graphql.GraphQLString,
-      args: { nome: { type: graphql.GraphQLNonNull(graphql.GraphQLString) } },
+      args: { nome: { type: graphql.GraphQLString } },
       resolve: ( parent, args, context, resolveInfo ) => {
+        console.log(global_var)
         global_var = args.nome
+        console.log(args)
         return "Hello " + global_var
       } 
     }

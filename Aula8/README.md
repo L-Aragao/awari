@@ -1,9 +1,14 @@
 # Aula 8
 Comandos basicos do GIT
 
+# Suporte https://business-science.github.io/shiny-production-with-aws-book/git-command-line-interface-cli.html
+
 # Comando para clonar o repositorio
 # ex: git clone https://github.com/L-Aragao/awari.git
 git clone <repositorio>
+
+# Comando para adiciona repositorio
+git remote
 
 # Comando para Atualizar todas as referencias de branchs no repositorio remoto
 git fetch
@@ -21,7 +26,7 @@ git checkout .
 git init <nome_repositorio>
 
 # Comando para baixar alterações
-git pull
+git pull <origin> <local>
 
 # Comando para enviar alterações
 git push

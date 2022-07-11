@@ -37,7 +37,7 @@ class OVO extends eWalletProviderMixins(PaymentProvider) {
 }
 
 class Mandiri extends bankProviderMixins(PaymentProvider) {
-  PaymentName() { }z
+  PaymentName() { }
   PaymentName() { }
   amount() { }
   bankID() { }
@@ -45,7 +45,7 @@ class Mandiri extends bankProviderMixins(PaymentProvider) {
 }
 
 class BNI extends bankProviderMixins(PaymentProvider) {
-  PaymentName() { }z
+  PaymentName() { }
   PaymentName() { }
   amount() { }
   bankID() { }
